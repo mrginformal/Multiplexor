@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+3.3 Pin=J7-01
+Removed Pin From Net: NetName=SCL Pin=J7-02
+Removed Pin From Net: NetName=GND Pin=J7-03
+Removed Pin From Net: NetName=SDA Pin=J7-04
+Removed Pin From Net: NetName=RST Pin=J7-06
+Removed Pin From Net: NetName=pwr gnd Pin=J7-07
+Removed Pin From Net: NetName=pwr gnd Pin=J7-08
+Removed Pin From Net: NetName=pwr gnd Pin=J7-09
+Removed Pin From Net: NetName=pwr gnd Pin=J7-10
+Removed Pin From Net: NetName=NetJ5_6 Pin=K21-3
+Removed Pin From Net: NetName=NetJ5_6 Pin=K21-4
+Removed Pin From Net: NetName=NetJ5_8 Pin=K21-5
+Removed Pin From Net: NetName=NetJ5_8 Pin=K21-6
+Removed Pin From Net: NetName=NetJ5_7 Pin=K21-11
+Removed Pin From Net: NetName=NetJ5_7 Pin=K21-12
+Removed Pin From Net: NetName=NetJ5_5 Pin=K21-13
+Removed Pin From Net: NetName=NetJ5_5 Pin=K21-14
+Add Component: Footprint Not Found SAMTEC_TMMH-105-01-F-D
+Add Pin To Net: Unknown Pin: Pin J7-01
+Add Pin To Net: Unknown Pin: Pin J7-02
+Add Pin To Net: Unknown Pin: Pin J7-03
+Add Pin To Net: Unknown Pin: Pin J7-04
+Add Pin To Net: Unknown Pin: Pin J7-06
+Add Pin To Net: Unknown Pin: Pin J7-07
+Add Pin To Net: Unknown Pin: Pin J7-08
+Add Pin To Net: Unknown Pin: Pin J7-09
+Add Pin To Net: Unknown Pin: Pin J7-10
+Added Pin To Net: NetName=NetJ5_8 Pin=K21-3
+Added Pin To Net: NetName=NetJ5_8 Pin=K21-4
+Added Pin To Net: NetName=NetJ5_6 Pin=K21-5
+Added Pin To Net: NetName=NetJ5_6 Pin=K21-6
+Added Pin To Net: NetName=NetJ5_5 Pin=K21-11
+Added Pin To Net: NetName=NetJ5_5 Pin=K21-12
+Added Pin To Net: NetName=NetJ5_7 Pin=K21-13
+Added Pin To Net: NetName=NetJ5_7 Pin=K21-14
+Add Class Member: Failed to add class member : Component J7 TMMH-105-01-F-D
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

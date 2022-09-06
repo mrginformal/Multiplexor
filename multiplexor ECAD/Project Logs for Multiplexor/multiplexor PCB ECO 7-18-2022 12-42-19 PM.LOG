@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetJ3_4 Pin=K3-2_1
+Removed Pin From Net: NetName=NetJ3_4 Pin=K3-2_2
+Removed Pin From Net: NetName=NetJ3_3 Pin=K3-6_1
+Removed Pin From Net: NetName=NetJ3_3 Pin=K3-6_2
+Removed Pin From Net: NetName=NetJ3_2 Pin=K4-2_1
+Removed Pin From Net: NetName=NetJ3_2 Pin=K4-2_2
+Removed Pin From Net: NetName=NetJ3_1 Pin=K4-6_1
+Removed Pin From Net: NetName=NetJ3_1 Pin=K4-6_2
+Added Pin To Net: NetName=NetJ3_2 Pin=K3-2_1
+Added Pin To Net: NetName=NetJ3_2 Pin=K3-2_2
+Added Pin To Net: NetName=NetJ3_1 Pin=K3-6_1
+Added Pin To Net: NetName=NetJ3_1 Pin=K3-6_2
+Added Pin To Net: NetName=NetJ3_4 Pin=K4-2_1
+Added Pin To Net: NetName=NetJ3_4 Pin=K4-2_2
+Added Pin To Net: NetName=NetJ3_3 Pin=K4-6_1
+Added Pin To Net: NetName=NetJ3_3 Pin=K4-6_2
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

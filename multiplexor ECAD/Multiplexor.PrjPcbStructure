@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=multiplexor circuit.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=multiplexor circuit.SchDoc|FileName=Relay I2C to GPIO.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=multiplexor circuit.SchDoc|FileName=relay isolation circuit.SchDoc|SheetNumber=2

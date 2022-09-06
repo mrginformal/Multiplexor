@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=SDA Pin=Slave #1-2
+Change Component Footprint: Designator=K5 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K6 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K7 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K8 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K9 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K10 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K11 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K12 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K13 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K14 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K15 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K16 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K17 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K18 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K19 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K20 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K21 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K22 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K23 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Footprint: Designator=K24 Old Footprint=T92S11D12-24_TEC New Footprint=T92S11D12-24_TEC-corrected
+Change Component Designator: OldDesignator= NewDesignator=R1
+Change Component Designator: OldDesignator= NewDesignator=R2
+Change Component Designator: OldDesignator= NewDesignator=R3
+Change Component Designator: OldDesignator= NewDesignator=R4
+Change Component Designator: OldDesignator= NewDesignator=R5
+Change Component Designator: OldDesignator= NewDesignator=R6
+Change Component Designator: OldDesignator= NewDesignator=R7
+Change Component Designator: OldDesignator= NewDesignator=R8
+Change Component Designator: OldDesignator= NewDesignator=R9
+Change Component Designator: OldDesignator= NewDesignator=R10
+Change Component Designator: OldDesignator= NewDesignator=R11
+Change Component Designator: OldDesignator= NewDesignator=R12
+Change Component Designator: OldDesignator= NewDesignator=R13
+Change Component Designator: OldDesignator= NewDesignator=R14
+Change Component Designator: OldDesignator= NewDesignator=R15
+Change Component Designator: OldDesignator= NewDesignator=R17
+Change Component Designator: OldDesignator= NewDesignator=R18
+Change Component Designator: OldDesignator= NewDesignator=R19
+Change Component Designator: OldDesignator= NewDesignator=R20
+Change Component Designator: OldDesignator= NewDesignator=R21
+Change Component Designator: OldDesignator= NewDesignator=R22
+Change Component Designator: OldDesignator= NewDesignator=R23
+Change Component Designator: OldDesignator= NewDesignator=R24
+Change Component Designator: OldDesignator= NewDesignator=R25
+Change Component Library : Designator=K5 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K6 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K7 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K8 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K9 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K10 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K11 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K12 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K13 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K14 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K15 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K16 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K17 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K18 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K19 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K20 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K21 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K22 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K23 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Library : Designator=K24 Old Library=T92S11D12-24.SchLib New Library=multiplexorparts.SchLib
+Change Component Kind : Designator=R17 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R15 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R14 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R24 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R22 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R20 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R6 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R3 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R1 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R11 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R10 Old Kind=Standard (No BOM) New Kind=Standard
+Change Component Kind : Designator=R7 Old Kind=Standard (No BOM) New Kind=Standard
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R1 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R2 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R3 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R4 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R5 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R6 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R7 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R8 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R9 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R10 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R11 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R12 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R13 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R14 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R15 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R17 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R18 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R19 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R20 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R21 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R22 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R23 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R24 0603_k4.7K
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R25 0603_k4.7K
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=NetJ3_4 Pin=K3-2_1
+Removed Pin From Net: NetName=NetJ3_4 Pin=K3-2_2
+Removed Pin From Net: NetName=NetJ3_3 Pin=K3-6_1
+Removed Pin From Net: NetName=NetJ3_3 Pin=K3-6_2
+Removed Pin From Net: NetName=NetJ3_2 Pin=K4-2_1
+Removed Pin From Net: NetName=NetJ3_2 Pin=K4-2_2
+Removed Pin From Net: NetName=NetJ3_1 Pin=K4-6_1
+Removed Pin From Net: NetName=NetJ3_1 Pin=K4-6_2
+Added Component: Designator=J8(PJ-002AH-SMT)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.cui.com/pdffiles/PJ-002AH-SMT.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.cui.com/adtemplate.asp?invky=501659"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=CP-002AHPJCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionAuthor"; Value = "David Class"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionComment"; Value = "rev2 - decresed hole size by .1mm check footprint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "24-Nov-09"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CUI Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PJ-002AH-SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "CP-002AHPJCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R16(BO_CR2512)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_1"; Value = "CR2512-J/-000ELFCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_2"; Value = "CR2512-J/-000ELFDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number_3"; Value = "CR2512-J/-000ELFTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR2512-J/-000ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Bourns Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+18 Pin=J8-1
+Added Pin To Net: NetName=+18 Pin=J8-1
+Added Pin To Net: NetName=NetJ3_2 Pin=K3-2_1
+Added Pin To Net: NetName=NetJ3_2 Pin=K3-2_2
+Added Pin To Net: NetName=NetJ3_1 Pin=K3-6_1
+Added Pin To Net: NetName=NetJ3_1 Pin=K3-6_2
+Added Pin To Net: NetName=NetJ3_4 Pin=K4-2_1
+Added Pin To Net: NetName=NetJ3_4 Pin=K4-2_2
+Added Pin To Net: NetName=NetJ3_3 Pin=K4-6_1
+Added Pin To Net: NetName=NetJ3_3 Pin=K4-6_2
+Added Pin To Net: NetName=+18 Pin=K23-15
+Added Pin To Net: NetName=pwr gnd Pin=R16-1
+Change Net Name : Old Net Name=+18 New Net Name=+19
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-3
+Added Pin To Net: NetName=NetJ8_2 Pin=R16-2
+Added Net: Name=NetJ8_2
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component J8 PJ-002AH-SMT
+Added Member To Class: ClassName=Relay I2C to GPIO Member=Component R16 CR2512-J/-000ELF
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

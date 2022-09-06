@@ -1,0 +1,111 @@
+Added Pin To Net: NetName=NetCR5_2 Pin=K5-2
+Added Pin To Net: NetName=NetK5_4 Pin=K5-3
+Added Pin To Net: NetName=NetK5_5 Pin=K5-6
+Added Pin To Net: NetName=NetK1_8_1 Pin=K5-8
+Added Pin To Net: NetName=NetK1_4_1 Pin=K5-9
+Added Pin To Net: NetName=NetK5_12 Pin=K5-11
+Added Pin To Net: NetName=NetK5_13 Pin=K5-14
+Added Pin To Net: NetName=+19 Pin=K5-15
+Added Pin To Net: NetName=NetCR6_2 Pin=K6-2
+Added Pin To Net: NetName=NetK5_4 Pin=K6-3
+Added Pin To Net: NetName=NetK5_5 Pin=K6-6
+Added Pin To Net: NetName=NetK2_8_1 Pin=K6-8
+Added Pin To Net: NetName=NetK2_4_1 Pin=K6-9
+Added Pin To Net: NetName=NetK5_12 Pin=K6-11
+Added Pin To Net: NetName=NetK5_13 Pin=K6-14
+Added Pin To Net: NetName=+19 Pin=K6-15
+Added Pin To Net: NetName=NetCR7_2 Pin=K7-2
+Added Pin To Net: NetName=NetK7_4 Pin=K7-3
+Added Pin To Net: NetName=NetK7_5 Pin=K7-6
+Added Pin To Net: NetName=NetK3_8_1 Pin=K7-8
+Added Pin To Net: NetName=NetK3_4_1 Pin=K7-9
+Added Pin To Net: NetName=NetK7_12 Pin=K7-11
+Added Pin To Net: NetName=NetK7_13 Pin=K7-14
+Added Pin To Net: NetName=+19 Pin=K7-15
+Added Pin To Net: NetName=NetCR8_2 Pin=K8-2
+Added Pin To Net: NetName=NetK7_4 Pin=K8-3
+Added Pin To Net: NetName=NetK7_5 Pin=K8-6
+Added Pin To Net: NetName=NetK4_8_1 Pin=K8-8
+Added Pin To Net: NetName=NetK4_4_1 Pin=K8-9
+Added Pin To Net: NetName=NetK7_12 Pin=K8-11
+Added Pin To Net: NetName=NetK7_13 Pin=K8-14
+Added Pin To Net: NetName=+19 Pin=K8-15
+Added Pin To Net: NetName=NetCR10_2 Pin=K10-2
+Added Pin To Net: NetName=NetK10_4 Pin=K10-3
+Added Pin To Net: NetName=NetK10_5 Pin=K10-6
+Added Pin To Net: NetName=NetK5_4 Pin=K10-8
+Added Pin To Net: NetName=NetK5_13 Pin=K10-9
+Added Pin To Net: NetName=NetK10_12 Pin=K10-11
+Added Pin To Net: NetName=NetK10_13 Pin=K10-14
+Added Pin To Net: NetName=+19 Pin=K10-15
+Added Pin To Net: NetName=NetCR11_2 Pin=K11-2
+Added Pin To Net: NetName=NetK9_3 Pin=K11-3
+Added Pin To Net: NetName=NetK9_5 Pin=K11-6
+Added Pin To Net: NetName=NetK7_5 Pin=K11-8
+Added Pin To Net: NetName=NetK7_12 Pin=K11-9
+Added Pin To Net: NetName=NetK9_11 Pin=K11-11
+Added Pin To Net: NetName=NetK9_13 Pin=K11-14
+Added Pin To Net: NetName=+19 Pin=K11-15
+Added Pin To Net: NetName=NetCR12_2 Pin=K12-2
+Added Pin To Net: NetName=NetK10_4 Pin=K12-3
+Added Pin To Net: NetName=NetK10_5 Pin=K12-6
+Added Pin To Net: NetName=NetK7_4 Pin=K12-8
+Added Pin To Net: NetName=NetK7_13 Pin=K12-9
+Added Pin To Net: NetName=NetK10_12 Pin=K12-11
+Added Pin To Net: NetName=NetK10_13 Pin=K12-14
+Added Pin To Net: NetName=+19 Pin=K12-15
+Added Pin To Net: NetName=NetCR13_2 Pin=K13-2
+Added Pin To Net: NetName=NetK13_4 Pin=K13-3
+Added Pin To Net: NetName=NetK13_5 Pin=K13-6
+Added Pin To Net: NetName=NetK9_5 Pin=K13-8
+Added Pin To Net: NetName=NetK9_11 Pin=K13-9
+Added Pin To Net: NetName=NetK13_12 Pin=K13-11
+Added Pin To Net: NetName=NetK13_13 Pin=K13-14
+Added Pin To Net: NetName=+19 Pin=K13-15
+Added Pin To Net: NetName=NetCR14_2 Pin=K14-2
+Added Pin To Net: NetName=NetK14_4 Pin=K14-3
+Added Pin To Net: NetName=NetK14_5 Pin=K14-6
+Added Pin To Net: NetName=NetK9_3 Pin=K14-8
+Added Pin To Net: NetName=NetK9_13 Pin=K14-9
+Added Pin To Net: NetName=NetK14_13 Pin=K14-14
+Added Pin To Net: NetName=+19 Pin=K14-15
+Added Pin To Net: NetName=NetCR15_2 Pin=K15-2
+Added Pin To Net: NetName=NetK15_4 Pin=K15-3
+Added Pin To Net: NetName=NetK15_5 Pin=K15-6
+Added Pin To Net: NetName=NetK10_5 Pin=K15-8
+Added Pin To Net: NetName=NetK10_12 Pin=K15-9
+Added Pin To Net: NetName=NetK15_12 Pin=K15-11
+Added Pin To Net: NetName=NetK15_13 Pin=K15-14
+Added Pin To Net: NetName=+19 Pin=K15-15
+Added Pin To Net: NetName=NetCR16_2 Pin=K16-2
+Added Pin To Net: NetName=NetK16_4 Pin=K16-3
+Added Pin To Net: NetName=NetK16_6 Pin=K16-5
+Added Pin To Net: NetName=NetK10_4 Pin=K16-8
+Added Pin To Net: NetName=NetK10_13 Pin=K16-9
+Added Pin To Net: NetName=NetK16_12 Pin=K16-11
+Added Pin To Net: NetName=NetK16_13 Pin=K16-14
+Added Pin To Net: NetName=+19 Pin=K16-15
+Added Pin To Net: NetName=NetCR19_2 Pin=K17-2
+Added Pin To Net: NetName=NetK14_5 Pin=K17-8
+Added Pin To Net: NetName=+19 Pin=K17-15
+Change Net Name : Old Net Name=NetK5_4 New Net Name=NetK5_3
+Change Net Name : Old Net Name=NetK5_12 New Net Name=NetK5_11
+Change Net Name : Old Net Name=NetK7_4 New Net Name=NetK7_3
+Change Net Name : Old Net Name=NetK7_12 New Net Name=NetK7_11
+Change Net Name : Old Net Name=NetK10_4 New Net Name=NetK10_3
+Change Net Name : Old Net Name=NetK10_12 New Net Name=NetK10_11
+Change Net Name : Old Net Name=NetK13_4 New Net Name=NetK13_3
+Change Net Name : Old Net Name=NetK13_12 New Net Name=NetK13_11
+Change Net Name : Old Net Name=NetK14_4 New Net Name=NetK14_3
+Change Net Name : Old Net Name=NetK15_4 New Net Name=NetK15_3
+Change Net Name : Old Net Name=NetK15_12 New Net Name=NetK15_11
+Change Net Name : Old Net Name=NetK16_4 New Net Name=NetK16_3
+Change Net Name : Old Net Name=NetK16_6 New Net Name=NetK16_5
+Change Net Name : Old Net Name=NetK16_12 New Net Name=NetK16_11
+Added Pin To Net: NetName=NetK14_11 Pin=K14-11
+Added Pin To Net: NetName=NetK14_11 Pin=K14-12
+Added Pin To Net: NetName=NetK14_11 Pin=K17-10
+Added Net: Name=NetK14_11
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

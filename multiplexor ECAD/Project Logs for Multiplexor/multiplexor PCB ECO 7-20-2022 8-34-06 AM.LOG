@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetK14_11 Pin=K17-9
+Added Member To Class: ClassName=multiplexor circuit Member=Component K1 6-1423008-7
+Added Room: Name=multiplexor circuit
+Added Room: Name=Relay I2C to GPIO
+Added Room: Name=relay isolation circuit

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Multiplexor.PrjPcb]
+   Generated File[Bill of Materials-Multiplexor.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:38:07 AM On 8/8/2022
