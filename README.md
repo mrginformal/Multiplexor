@@ -1,4 +1,4 @@
-# 4IN 16OUT Multiplexor
+# 4-IN 16-OUT Multiplexor
 
 This repo contains datasheets, E-CAD and and the Controlling software of the Multiplexor device
 
