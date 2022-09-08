@@ -30,31 +30,34 @@ slv_addresses = {                   # enter when part recieved
     3 : 'hexaddress4'
 }
 
-def build_reg_data(pth):            # this creates the matrix and puts the values in the correct locations defined by pathdict file
+def reg_data(pth_s):
+# This fuction builds the register data in the form of a matrix, it builds both a on and off state (same connects with exception of the first colum of relays)
+# Each row is the register of a diffrent slave, slave one being row one and so on. There is also a is active matrix which tracks if the relay have a signal
+# being sent through it, if two paths try to set a relay to active(writing a 1 to the matrix) that indicates the paths would share a bus, cuasing a short circuit.
+
     reg_packet = np.zeros([4,8], dtype = int)
+    active_pth = np.zeros([4,8], dtype = int)
 
-    for n in pathdata[pth]:
-            reg_packet[n[0] - 1][n[1]] = n[2]
+    for path in pth_s:
+        for relay in pathdata[path]:
+            reg_packet[relay[0] - 1][relay[1]] = relay[2]       # writes the 1's and zero's based on data from pathdict file
 
-    return reg_packet
+            if active_pth[relay[0] - 1][relay[1]] == 1:         # checks if the relay is already used by a path, if so raises value error, otherwise sets it to in use state.
+                raise ValueError('Short Circuit detected from path command {}, select diffrent paths and refer to connection diagram to ensure paths do not cross'.format(str(pth_s)))
+            else:
+                active_pth[relay[0] - 1][relay[1]] = 1
 
-def combine_reg_data(pth_s):        # This combines the 4 paths into one matrix, then converts to binary and then hex
-    r = np.zeros([4,8], dtype = int)
-    for x in pth_s:
-        r += build_reg_data(x)      # matrix sum should happen here (this is the 'on state' matrix)
-    j = np.matrix.copy(r)           # this simply copies the 'on state' matrix with the 4 input relays being forced to off.
-    j[0][0:4] = 0.
-    short_circuit_check(r,pth_s)
-    return (r,j)
+    on_regs = reg_packet
+    off_regs = np.matrix.copy(on_regs)                            # makes off reg by forcing all double pole single throw relays to off but maintains other connections
+    off_regs[0][0:4] = 0
 
-def short_circuit_check(pth_mtrx,pth_s):         # checks the combine_reg_data matrix to see if the set of paths intersect aka share a bus. typically not good.
-    if pth_mtrx[0][6] == pth_mtrx[1][0] or pth_mtrx[0][4] == pth_mtrx[0][5] or pth_mtrx[1][1] == pth_mtrx[1][2] or pth_mtrx[1][3] == pth_mtrx[1][4]: # feels dumb to use this many "if or" statements
-        #print(pth_mtrx[0][6], pth_mtrx[1][0], pth_mtrx[0][4], pth_mtrx[1][2], pth_mtrx[1][1], pth_mtrx[1][2], pth_mtrx[1][3], pth_mtrx[1][4])      # see what matrix data triggers error
-        raise ValueError('Short Circuit detected from path command {}, select diffrent paths and refer to connection diagram to ensure paths do not cross'.format(str(pth_s)))
+    return (on_regs, off_regs)    
 
 def compile_reg_data(pth_s):
-    cmd_hex = []                    # will store both off state and on state register data(onstate reg_data, offstate reg_data)
-    for p in combine_reg_data(pth_s):
+# This function feeds the data to the reg_data function and then converts it into hex data. 
+
+    cmd_hex = []                    # stores (on_regs, off_regs) in hex form
+    for p in reg_data(pth_s):
         reg_hex = []
 
         for n in p: 
@@ -67,23 +70,29 @@ def compile_reg_data(pth_s):
 
     return cmd_hex
 
-def send_state_cmd(pth_s,duration): # This simply multithreads out the timers and then calls to actually write the data when nessisary
+def send_state_cmd(pth_s,duration):
+ # This simply multithreads out the timers and then calls to actually write the data when nessisary
+
     t1 = threading.Timer(.5, wrt_reg_data,[pth_s,0])                
     t2 = threading.Timer(float(duration) + .5, wrt_reg_data,[pth_s,1]) 
     wrt_reg_data(pth_s,1)
     t1.start()
     t2.start()
 
-def wrt_reg_data(pth_s,v):          # sends the cmd_hex data to the i2c bus and ultimately the slaves, v selects the onstate or offstate
+def wrt_reg_data(pth_s,v):          
+# sends the cmd_hex data to the i2c bus and ultimately the slaves, v selects the onstate or offstate
+
     a = compile_reg_data(pth_s)
     c = 0                           # from the cmd_hex nested list.
     for n in a[v]:
-        #BUS_1.write_byte_data(slv_addresses[c],IODIR,n)       # uncomment when on pi
+        # BUS_1.write_byte_data(slv_addresses[c],IODIR,n)       # uncomment when on pi
         print(slv_addresses[c],n)
         c += 1
 
 
-def cycle_all(duration):            # this function will cycle through all of the path options, thus every input gets tested at every output for the duraiton
+def cycle_all(duration):           
+# this function will cycle through all of the path options, thus every input gets tested at every output for the duraiton
+
     a = [
         ((1,1),(2,9),(3,5),(4,13)), # do to the limits of the board and since certain paths cannot be connected at the same time as others.
         ((1,5),(2,13),(3,1),(4,9)), # there are 4 distinct path sets encoded in this data, we cycle 4 times, then switch path sets in order to avoid problems
@@ -101,16 +110,18 @@ def cycle_all(duration):            # this function will cycle through all of th
             n += 1
                 
 
-def configure_slaves():             # sets the slave configurations register on each device.
+def configure_slaves():             
+# sets the slave configurations register on each device.
+
     for i in range(len(slv_addresses)):
-        #BUS_1.write_byte_data(slv_addresses[i], IOCON, 0x0A)       # uncomment when on pi
+        # BUS_1.write_byte_data(slv_addresses[i], IOCON, 0x0A)       # uncomment when on pi
         print(slv_addresses[i], 0x0A)
 
 def main():
-    # send_state_cmd(((1,1),(3,5),(2,9),(4,13)), 10)
+    send_state_cmd(((1,1),(2,9),(3,5),(4,13)), 5)
     # configure_slaves()
-    t1 = threading.Thread(target=cycle_all,args=[3])
-    t1.start()
+    # t1 = threading.Thread(target=cycle_all,args=[3])
+    # t1.start()
 
 if __name__ == '__main__':
     main()
