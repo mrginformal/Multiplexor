@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\mgundersen\Desktop\Projects\Multiplexor Testing Device\multiplexor ECAD\multiplexor.PcbDoc
+DRC Rules Export File for PCB: C:\Users\mgundersen\Desktop\Projects\I_O_Multiplexor\Multiplexor\multiplexor ECAD\multiplexor.PcbDoc
 RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=30.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00

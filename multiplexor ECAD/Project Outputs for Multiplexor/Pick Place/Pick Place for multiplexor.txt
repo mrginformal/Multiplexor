@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\mgundersen\Desktop\Projects\Multiplexor Testing Device\multiplexor ECAD\Project Outputs for Multiplexor\Pick Place\Pick Place for multiplexor.txt
+C:\Users\mgundersen\Desktop\Projects\I_O_Multiplexor\Multiplexor\multiplexor ECAD\Project Outputs for Multiplexor\Pick Place\Pick Place for multiplexor.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       15/08/22
-Time:       09:21
-Revision:   Not in VersionControl
+Date:       19/09/22
+Time:       13:40
+Revision:   b349f2314674d816fd411ff2712ba2024a8d57f1
 Variant:    No variations
 Units used: mil
 
@@ -74,26 +74,26 @@ Q4         FOD817DSD          TopLayer FP-709AH-MFG               6700.000      
 Q3         FOD817DSD          TopLayer FP-709AH-MFG               7050.000      15800.000     270      "OPTOISOLATOR 5KV TRANSISTOR 4SMD"                                 
 Q2         FOD817DSD          TopLayer FP-709AH-MFG               7400.000      15800.000     270      "OPTOISOLATOR 5KV TRANSISTOR 4SMD"                                 
 Q1         FOD817DSD          TopLayer FP-709AH-MFG               7750.000      15800.000     270      "OPTOISOLATOR 5KV TRANSISTOR 4SMD"                                 
-K24        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9856.750      2850.000      90       "No Description Available"                                         
-K23        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      13647.000     90       "No Description Available"                                         
-K22        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      10047.000     90       "No Description Available"                                         
-K21        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      6447.000      90       "No Description Available"                                         
-K20        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      1047.000      90       "No Description Available"                                         
-K19        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      8247.000      90       "No Description Available"                                         
-K18        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      4653.000      90       "No Description Available"                                         
-K17        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 9875.250      11847.000     90       "No Description Available"                                         
-K16        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 7353.000      5324.750      0        "No Description Available"                                         
-K15        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 7353.000      1624.750      0        "No Description Available"                                         
-K14        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 7347.000      12374.750     0        "No Description Available"                                         
-K13        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 7350.000      8893.250      0        "No Description Available"                                         
-K12        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 5503.000      5324.750      0        "No Description Available"                                         
-K11        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 5503.000      12374.750     0        "No Description Available"                                         
-K10        T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 5497.000      1624.750      0        "No Description Available"                                         
-K9         T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 5500.000      8893.250      0        "No Description Available"                                         
-K8         T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 3650.000      1643.250      0        "No Description Available"                                         
-K7         T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 3650.000      5343.250      0        "No Description Available"                                         
-K6         T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 3650.000      8893.250      0        "No Description Available"                                         
-K5         T92S11D12-24       TopLayer T92S11D12-24_TEC-corrected 3650.000      12393.250     0        "No Description Available"                                         
+K24        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9856.750      2850.000      90       "No Description Available"                                         
+K23        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      13647.000     90       "No Description Available"                                         
+K22        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      10047.000     90       "No Description Available"                                         
+K21        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      6447.000      90       "No Description Available"                                         
+K20        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      1047.000      90       "No Description Available"                                         
+K19        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      8247.000      90       "No Description Available"                                         
+K18        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      4653.000      90       "No Description Available"                                         
+K17        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 9875.250      11847.000     90       "No Description Available"                                         
+K16        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 7353.000      5324.750      0        "No Description Available"                                         
+K15        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 7353.000      1624.750      0        "No Description Available"                                         
+K14        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 7347.000      12374.750     0        "No Description Available"                                         
+K13        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 7350.000      8893.250      0        "No Description Available"                                         
+K12        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 5503.000      5324.750      0        "No Description Available"                                         
+K11        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 5503.000      12374.750     0        "No Description Available"                                         
+K10        T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 5497.000      1624.750      0        "No Description Available"                                         
+K9         T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 5500.000      8893.250      0        "No Description Available"                                         
+K8         T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 3650.000      1643.250      0        "No Description Available"                                         
+K7         T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 3650.000      5343.250      0        "No Description Available"                                         
+K6         T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 3650.000      8893.250      0        "No Description Available"                                         
+K5         T92S11D12-24       TopLayer T92S11D12-24_TEC-CORRECTED 3650.000      12393.250     0        "No Description Available"                                         
 K4         6-1423008-7        TopLayer RELAY_6-1423008-7          1900.000      1592.126      270      "General Purpose Relay DPST-NO (2 Form A) 24VDC Coil Through Hole" 
 K3         6-1423008-7        TopLayer RELAY_6-1423008-7          1900.000      5292.126      270      "General Purpose Relay DPST-NO (2 Form A) 24VDC Coil Through Hole" 
 K2         6-1423008-7        TopLayer RELAY_6-1423008-7          1900.000      8893.307      270      "General Purpose Relay DPST-NO (2 Form A) 24VDC Coil Through Hole" 

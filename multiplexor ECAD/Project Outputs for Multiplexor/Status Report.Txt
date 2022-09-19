@@ -1,6 +1,6 @@
 Output: NC Drill Files
 Type  : NC Drill
-From  : PCB Document [multiplexor.PcbDoc]
+From  : Project [Multiplexor.PrjPcb]
    Generated File[multiplexor.TXT]
    Generated File[multiplexor.LDP]
    Generated File[multiplexor.DRR]
@@ -9,4 +9,4 @@ From  : PCB Document [multiplexor.PcbDoc]
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 9:21:35 AM On 8/15/2022
+Finished Output Generation At 1:43:32 PM On 9/19/2022

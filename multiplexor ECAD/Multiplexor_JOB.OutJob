@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother MFC-L8900CDW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -76,7 +76,7 @@ OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=1
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\mgundersen\Desktop\Projects\Multiplexor Testing Device\multiplexor ECAD\multiplexor.PcbDoc
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\mgundersen\Desktop\Projects\I_O_Multiplexor\Multiplexor\multiplexor ECAD\multiplexor.PcbDoc
 OutputType4=BOM_PartType
 OutputName4=Bill of Materials
 OutputCategory4=Report
@@ -145,7 +145,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\mgundersen\Desktop\Projects\Multiplexor Testing Device\multiplexor ECAD\Project Outputs for Multiplexor\
+OutputFilePath3=C:\Users\mgundersen\Desktop\Projects\I_O_Multiplexor\Multiplexor\multiplexor ECAD\Project Outputs for Multiplexor\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for Multiplexor
 OutputPathMedia3=
@@ -212,7 +212,7 @@ OpenOutput5=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=Project Outputs for Free Documents\.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\mgundersen\Desktop\Projects\Multiplexor Testing Device\multiplexor ECAD\Project Outputs for Multiplexor\
+RelativeOutputPath3=C:\Users\mgundersen\Desktop\Projects\I_O_Multiplexor\Multiplexor\multiplexor ECAD\Project Outputs for Multiplexor\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0

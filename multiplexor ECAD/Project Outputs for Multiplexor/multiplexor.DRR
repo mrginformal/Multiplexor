@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: multiplexor.PcbDoc   9/19/2022  1:43:32 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : multiplexor.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T2      20mil (0.508mm)                                           Round             28        PTH        7.38inch (187.56mm)
+T3      22mil (0.559mm)                                           Round             31        PTH        13.98inch (355.18mm)
+T4      28mil (0.711mm)                                           Round             41        PTH        27.54inch (699.60mm)
+T5      30mil (0.762mm)                                           Round             4         PTH        0.60inch (15.24mm)
+T6      35mil (0.889mm)                                           Round             10        PTH        0.71inch (18.00mm)
+T7      39mil (0.991mm)                                           Round             72        PTH        15.65inch (397.51mm)
+T8      44mil (1.118mm)                                           Round             56        PTH        20.28inch (514.99mm)
+T9      63mil (1.6mm)                                             Round             40        PTH        37.84inch (961.05mm)
+T10     79mil (2.006mm)                                           Round             48        PTH        27.02inch (686.34mm)
+T11     79mil (2.007mm)                                           Round             320       PTH        143.59inch (3647.06mm)
+T12     63mil (1.6mm)                                             Round             2         NPTH       1.00inch (25.40mm)
+T13     71mil (1.8mm)                                             Round             2         NPTH       1.00inch (25.40mm)
+T14     209mil (5.3mm)                                            Round             5         NPTH       36.67inch (931.50mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              660
+
+Total Processing Time (hh:mm:ss) : 00:00:00

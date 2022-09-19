@@ -162,7 +162,8 @@ Used DCodes :
     D39
     D45
     D46
-    D48
+    D47
+    D49
     D50
     D51
     D52
@@ -189,7 +190,7 @@ Used DCodes :
     D13
     D36
     D39
-    D48
+    D49
     D50
     D51
     D52
@@ -211,8 +212,8 @@ Used DCodes :
     D36
     D37
     D39
-    D48
-    D51
+    D49
+    D50
     D52
     D54
     D58
