@@ -1,7 +1,7 @@
 import numpy as np
 import time
 import threading
-import RPi.GPIO                    #uncomment on pi
+#import RPi.GPIO                    #uncomment on pi
 from smbus2 import SMBus  
 from pathdict import pathdata
 
@@ -24,17 +24,17 @@ OLAT = 0x0A
 BUS_1 = SMBus(1)                   # uncomment on pi --- Ensure connected to appropriate bus
 
 slv_addresses = {                  # enter when part recieved 
-# ***CURRENT VALUES FOR UNIT 2***
-    0 : 0x25,
-    1 : 0x26,
-    2 : 0x27,
-    3 : 0x20
+# ***CURRENT VALUES FOR UNIT 1***
+    0 : 0x21,
+    1 : 0x22,
+    2 : 0x23,
+    3 : 0x24
 }
 
 def reg_data(pth_s):
 # This fuction builds the register data in the form of a matrix, it builds both a on and off state (same connects with exception of the first colum of relays)
 # Each row is the register of a diffrent slave, slave one being row one and so on. There is also a is active matrix which tracks if the relay have a signal
-# being sent through it, if two paths try to set a relay to active(writing a 1 to the matrix) that indicates the paths would share a bus, cuasing a short circuit.
+# being sent through it, if two paths try to set a rela y to active(writing a 1 to the matrix) that indicates the paths would share a bus, cuasing a short circuit.
 # Note: already active pertains to one already used within the same command. not previous commands or states.
 
     reg_packet = np.zeros([4,8], dtype = int)
@@ -53,7 +53,7 @@ def reg_data(pth_s):
     off_regs = np.matrix.copy(on_regs)                            # makes off reg by forcing all double pole single throw relays to off but maintains other connections
     off_regs[0][0:4] = 0
 
-    return (on_regs, off_regs)    
+    return (off_regs, on_regs)    
 
 def compile_reg_data(pth_s):
 # This function feeds the data to the reg_data function and then converts it into hex data. 
@@ -74,15 +74,16 @@ def compile_reg_data(pth_s):
 
 def send_state_cmd(pth_s,duration):
  # This simply multithreads out the timers and then calls to actually write the data when nessisary
+    wrt_reg_data(pth_s,0)
+    time.sleep(.25)
+    wrt_reg_data(pth_s, 1)
+    time.sleep(duration)
+    wrt_reg_data(pth_s,0)
+    time.sleep(.25)
 
-    t1 = threading.Timer(.25, wrt_reg_data,[pth_s,0])                
-    t2 = threading.Timer(float(duration) + .25, wrt_reg_data,[pth_s,1]) 
-    wrt_reg_data(pth_s,1)
-    t1.start()
-    t2.start()
-
+    
 def wrt_reg_data(pth_s,v):          
-# sends the cmd_hex data to the i2c bus and ultimately the slaves, v selects the onstate or offstate
+# sends the cmd_hex data to the i2c bus and ultimately the slaves, v selects the onstate(1) or offstate(0)
 
     a = compile_reg_data(pth_s)
     c = 0                           # from the cmd_hex nested list.
@@ -107,13 +108,12 @@ def cycle_all(duration):
             for c in b:
                 x.append((c[0],c[1]+n))
             send_state_cmd(x,duration)                            
-            time.sleep(duration + .5)
             n += 1
                 
      
 def configure_slaves():             
 # sets the slave configurations register on each device.
-
+    print('configuring')
     for i in range(len(slv_addresses)):
         BUS_1.write_byte_data(slv_addresses[i], IOCON, 0x3a)       # uncomment when on pi
         BUS_1.write_byte_data(slv_addresses[i], IODIR, 0x00)
@@ -122,9 +122,18 @@ def configure_slaves():
 def main():
     configure_slaves()
     time.sleep(1)
-    #send_state_cmd(((1,1),(2,9),(3,5),(4,13)), 60)
-    t1 = threading.Thread(target=cycle_all,args=[2])
-    t1.start()
+    print('executing')
+    try:
+        
+        send_state_cmd(((1,1),(2,9),(3,5),(4,13)), 10)
+        send_state_cmd(((1,16),(2,5),(3,9),(4,1)), 5)
+        '''
+        t1 = threading.Thread(target=cycle_all,args=[2])
+        t1.start()
+        '''
+    except ValueError as err:
+        print(err)
+
 
 if __name__ == '__main__':
     main()
